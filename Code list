@@ -1,0 +1,13 @@
+Function f(x)= 1/x + 3sin(x) -2 (used for all sums)
+
+Inputs:
+Number of intervals: 4
+Left bound:0.25
+Right bound: 2.25
+
+Sums-
+Left:
+Right:
+Midpoint:
+Trapezoid:
+Simpson: (1/3) * (2 * (Midpoint) + (Trapezoid))
