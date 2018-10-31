@@ -1,0 +1,72 @@
+// ConsoleApplication13.cpp : Defines the entry point for the console application.
+//function use f(x)=1/x + 3sin(x)
+
+#include "stdafx.h"
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+
+int main()
+{
+	// Input Data
+	double InN;
+	double InLeft;
+	double InRight;
+	double Area;
+	double SumM;
+	double Step1;
+	double Frac = (((1 / x) + (3 sin(x)) - 2) / InN);
+	double countL;
+
+	cout << "This program will compute Riemann Sums using Left, Right, Midpoint and Trapezoid techniques " << endl;
+	cout << "The function we are solving for is f(x) = 1/x + 3 sin (x) - 2 " << endl;
+
+	cout << "Enter the number of intervals: ";
+	cin >> InN;
+
+	cout << "Enter the left bound of intervals:";
+	cin >> InLeft;
+
+	cout << "Enter the right bound of intervals: ";
+	cin >> InRight;
+
+	// Area Midpoint
+
+	Area = (InRight - InLeft) / InN
+
+		//Left Loop
+
+		//Right Loop
+
+		//Midpoint Loop
+
+
+		double countL = 1;
+	do 
+	{
+
+		SumM = Area * pow(Frac, 2);
+
+
+
+
+			countL++;
+
+	} while (countL <= InN)
+
+		//Trapezoid Loop
+
+		//Simpsons Aprox.
+
+		//Output Data
+	
+		cout << "The Sum of the midpoint is " << SumM << endl;
+
+	
+		
+
+
+	return 0;
+
+}
