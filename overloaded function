@@ -1,0 +1,11 @@
+#include "pch.h"
+#include <iostream>
+using namespace std;
+int sumOfNumbers(double num1, double num2, int num3){
+	return num1 + num2 + num3;
+}
+int main()
+{
+
+	cout << sumOfNumbers(1.0, 2.0, 3);
+}
