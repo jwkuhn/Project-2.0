@@ -1,0 +1,27 @@
+#include "pch.h"
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+
+void swap(char *a, char *b){
+	char temp;
+	temp = *a;
+	*a = *b;
+	*b = temp;
+}
+
+char main(){
+	char a, b;
+
+	couprintf("\nEnter the first number : ");
+	scanf("%d", &a);
+	printf("\nEnter the Second number : ");
+	scanf("%d", &b);
+
+	swap(&a, &b);
+
+	printf("\nFirst number  : %d", a);
+	printf("\nSecond number : %d", b);
+
+	return 0;
+}
